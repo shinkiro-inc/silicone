@@ -1,6 +1,6 @@
-package me.azure.silicone.multiver
+package moe.shinkiro.silicone.multiver
 
-import me.azure.silicone.minecraft.ModLoader
+import moe.shinkiro.silicone.minecraft.ModLoader
 
 internal data class VersionDefinition(
     val mcVersion: String,

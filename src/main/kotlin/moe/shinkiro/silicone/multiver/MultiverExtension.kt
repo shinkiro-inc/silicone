@@ -1,6 +1,6 @@
-package me.azure.silicone.multiver
+package moe.shinkiro.silicone.multiver
 
-import me.azure.silicone.minecraft.ModLoader
+import moe.shinkiro.silicone.minecraft.ModLoader
 import org.gradle.api.Project
 import org.gradle.api.provider.Property
 import javax.inject.Inject

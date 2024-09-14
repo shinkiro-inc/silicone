@@ -1,6 +1,6 @@
-package me.azure.silicone.multiver
+package moe.shinkiro.silicone.multiver
 
-import me.azure.silicone.minecraft.SiliconeExtension
+import moe.shinkiro.silicone.minecraft.SiliconeExtension
 import org.gradle.api.Project
 import java.nio.file.Paths
 

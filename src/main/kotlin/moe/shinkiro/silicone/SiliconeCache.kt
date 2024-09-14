@@ -1,15 +1,19 @@
-package me.azure.silicone
+package moe.shinkiro.silicone
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
-import me.azure.silicone.minecraft.*
-import me.azure.silicone.minecraft.VersionData
-import me.azure.silicone.minecraft.VersionManifest
-import me.azure.silicone.minecraft.get
-import me.azure.silicone.minecraft.resolveManifest
+import moe.shinkiro.silicone.minecraft.*
 import org.gradle.api.Project
 import java.io.File
 import java.nio.file.Path
+import kotlin.collections.MutableMap
+import kotlin.collections.component1
+import kotlin.collections.component2
+import kotlin.collections.find
+import kotlin.collections.forEach
+import kotlin.collections.mutableMapOf
+import kotlin.collections.set
+import kotlin.collections.toMap
 import kotlin.io.path.*
 
 @Serializable

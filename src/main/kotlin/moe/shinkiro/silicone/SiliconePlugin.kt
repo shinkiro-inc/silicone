@@ -1,11 +1,9 @@
-package me.azure.silicone
+package moe.shinkiro.silicone
 
-import me.azure.silicone.dependencies.setupShading
-import me.azure.silicone.multiver.MultiverExtension
-import me.azure.silicone.multiver.setupMultiver
+import moe.shinkiro.silicone.dependencies.setupShading
+import moe.shinkiro.silicone.multiver.setupMultiver
 import org.gradle.api.Plugin
 import org.gradle.api.Project
-import java.nio.file.Paths
 
 public typealias Silicone = SiliconePlugin
 

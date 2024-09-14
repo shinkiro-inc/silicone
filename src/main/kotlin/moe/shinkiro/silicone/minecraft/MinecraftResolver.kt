@@ -1,9 +1,9 @@
-package me.azure.silicone.minecraft
+package moe.shinkiro.silicone.minecraft
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
-import me.azure.silicone.multiver.VersionDefinition
+import moe.shinkiro.silicone.multiver.VersionDefinition
 import org.gradle.api.Project
 import java.net.URL
 
@@ -97,7 +97,10 @@ internal fun get(url: String): String? = runCatching {
 }.getOrNull()
 
 internal fun resolveManifest(): VersionManifest {
-    return Json.decodeFromString<VersionManifest>(get(META_MANIFEST) ?: throw IllegalStateException("Failed to get manifest. All is over."))
+    return Json.decodeFromString<VersionManifest>(
+        get(
+            META_MANIFEST
+        ) ?: throw IllegalStateException("Failed to get manifest. All is over."))
 }
 
 internal fun setupMinecraft(version: VersionDefinition, project: Project) {

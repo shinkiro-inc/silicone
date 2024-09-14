@@ -1,4 +1,4 @@
-package me.azure.silicone.mappings
+package moe.shinkiro.silicone.mappings
 
 import org.gradle.api.Project
 

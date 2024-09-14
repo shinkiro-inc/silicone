@@ -7,7 +7,7 @@ plugins {
     `maven-publish`
 }
 
-group = "me.azure"
+group = "moe.shinkiro"
 version = "0.1.2"
 
 repositories {
@@ -30,8 +30,8 @@ kotlin {
 gradlePlugin {
 
     val silicone by plugins.creating {
-        id = "me.azure.silicone"
-        implementationClass = "me.azure.silicone.SiliconePlugin"
+        id = "moe.shinkiro.silicone"
+        implementationClass = "moe.shinkiro.silicone.SiliconePlugin"
     }
 
 }

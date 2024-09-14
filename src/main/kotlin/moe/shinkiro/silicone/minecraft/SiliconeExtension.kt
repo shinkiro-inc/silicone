@@ -1,8 +1,6 @@
-package me.azure.silicone.minecraft
+package moe.shinkiro.silicone.minecraft
 
-import me.azure.silicone.multiver.VersionDefinition
 import org.gradle.api.Project
-import org.gradle.api.provider.Property
 import javax.inject.Inject
 
 public open class SiliconeExtension

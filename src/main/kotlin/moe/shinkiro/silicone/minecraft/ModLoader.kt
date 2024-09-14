@@ -1,6 +1,6 @@
-package me.azure.silicone.minecraft
+package moe.shinkiro.silicone.minecraft
 
-import me.azure.silicone.mappings.resolveFabricMappings
+import moe.shinkiro.silicone.mappings.resolveFabricMappings
 import org.gradle.api.Project
 
 public enum class ModLoader(
